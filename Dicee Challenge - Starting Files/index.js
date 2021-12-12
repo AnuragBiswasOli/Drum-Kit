@@ -18,5 +18,8 @@ document.getElementById("image2").src=myPix[randomNumber2];
 if(randomNumber1>randomNumber2){
     document.firstElementChild.lastElementChild.firstElementChild.firstElementChild.innerHTML="Player 1 Wins"
     }
-    else
-       document.firstElementChild.lastElementChild.firstElementChild.firstElementChild.innerHTML="Player 2 Wins"
+else if(randomNumber2>randomNumber1){
+       document.firstElementChild.lastElementChild.firstElementChild.firstElementChild.innerHTML="Player 2 Wins"}
+else{
+       document.firstElementChild.lastElementChild.firstElementChild.firstElementChild.innerHTML="Draw!!!"
+}
